@@ -1,0 +1,28 @@
+
+#
+# system.prop for logan2g
+#
+
+#rild.libpath=/system/lib/libsec-ril.so
+#rild.libargs=-d /dev/ttyS0
+ro.sf.lcd_density=240
+ro.sf.lcd_width=52
+ro.sf.lcd_height=87
+ro.opengles.version=131072
+ro.product.hardware=logan
+ro.lcd_brightness=160
+
+# MultiTouch support
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
+
+debug.hwui.render_dirty_regions=false
+
+# Delay for ConnectivityChange broadcast (ms)
+conn.connectivity_change_delay=0
+
+# NK console device
+persist.ttydev=ttyVUART0
+
+# Open GL
+ro.kernel.qemu=0
