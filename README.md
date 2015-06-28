@@ -16,7 +16,4 @@ Samsung Galaxy Star Pro/Plus.
  * Display: 800 x 480; DPI: 240; Evaluated Size: 3,9"
  * GPU: Mali-400 MP; ARM
 
-Additional patches apart from the provided ones to be used:
-
-Dalvik startup with a low memory footprint: https://github.com/CyanogenMod/android_dalvik/commit/76461e9355079d5089a479d61dc792d443d34bd5
-
+Apply patches that are provided in patches folder.
